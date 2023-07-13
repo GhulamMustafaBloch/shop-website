@@ -1,0 +1,450 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+body {
+  font-size: 1rem;
+  font-weight: 700;
+  scroll-behavior: smooth;
+  line-height: 1.5;
+  background: #FFFFFF;
+}
+
+li,
+a span {
+  font-family: "Rubik", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+h2 {
+  font-weight: 600;
+  color: #171716;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+  color: #171716;
+}
+
+h2 {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #171716;
+}
+
+h3 {
+  color: #171716;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 0.625rem;
+  color: #171716;
+}
+
+span {
+  color: #EA5A43;
+}
+
+a {
+  color: #6B6B6B;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-size: 1rem;
+}
+
+.container {
+  margin: 0;
+  margin-top: 2rem;
+  max-width: initial;
+}
+
+.header {
+  padding: 0 72px;
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header .container {
+  background: #FFFFFF;
+  box-shadow: 0 0px 0 1px rgba(107, 107, 107, 0.08);
+  border-radius: 12px;
+  margin: 30px 0 0 0;
+  position: absolute;
+  right: 0;
+  max-width: 98.2%;
+  padding: 1.125rem 0;
+}
+.header .container .container-fluid .navbar-collapse > div .icons {
+  position: relative;
+}
+.header .container .container-fluid .navbar-collapse > div .icons .icon {
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+.header .container .container-fluid .navbar-collapse > div .icons .position::before {
+  position: absolute;
+  content: "6";
+  width: 1.375rem;
+  height: 1rem;
+  border-radius: 0.5625rem;
+  color: #FFFFFF;
+  background: #1A90D2;
+  top: -8px;
+  right: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .container .container-fluid .navbar-collapse > div .btn-primary {
+  background: #EA5A43;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 0.875rem;
+}
+.header .container .container-fluid .navbar-collapse > ul li a {
+  font-size: 0.875rem;
+  color: #8E8E8E;
+  padding-left: 30px;
+}
+
+.bg {
+  background: url("./images/Group 1260.png");
+  height: 275px;
+  opacity: 0.05;
+}
+
+.Offer-letter-section {
+  position: absolute;
+  top: 130px;
+  left: 0;
+  right: 0;
+}
+.Offer-letter-section .container {
+  max-width: 1300px;
+  background-image: url("./images/offer bg.png");
+  height: 4rem;
+  border-radius: 3.125rem;
+}
+.Offer-letter-section .container .row > div .btn {
+  color: #EA5A43;
+}
+
+.links {
+  padding: 0 32px;
+}
+.links .container-fluid {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.links .container-fluid .offers .col-md-3 .DEALS-AND-OFFERS .col-12 p {
+  color: #6B6B6B;
+  position: relative;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+.links .container-fluid .offers .col-md-3 .DEALS-AND-OFFERS .col-12 p::before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 16px;
+  background-color: #6B6B6B;
+  left: -0.625rem;
+  top: 0.3125rem;
+}
+.links .container-fluid .offers .col-md-3 .DEALS-AND-OFFERS .col-12 ul {
+  padding: 32px 0;
+  margin: 0;
+}
+.links .container-fluid .offers .col-md-3 .DEALS-AND-OFFERS .col-12 ul li:nth-child(2) {
+  margin-top: 1.5rem;
+}
+.links .container-fluid .offers .col-md-3 .DEALS-AND-OFFERS .col-12 ul li a {
+  color: #8E8E8E;
+}
+.links .container-fluid .offers .col-md-3 .services-categories > div > p {
+  position: relative;
+  color: #6B6B6B;
+}
+.links .container-fluid .offers .col-md-3 .services-categories > div > p::before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 16px;
+  background-color: #6B6B6B;
+  left: -0.625rem;
+  top: 0.3125rem;
+}
+.links .container-fluid .offers .col-md-3 .services-categories > div .show-all-categories h2 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.links .container-fluid .offers .col-md-3 .services-categories > div .show-all-categories p {
+  max-width: 70%;
+  color: #8E8E8E;
+}
+.links .container-fluid .offers .col-md-3 .seller {
+  margin-top: 3.0625rem;
+}
+.links .container-fluid .offers .col-md-3 .seller p {
+  margin: 0;
+}
+.links .container-fluid .offers .col-md-3 .seller .new-seller {
+  position: relative;
+}
+.links .container-fluid .offers .col-md-3 .seller .new-seller::before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 16px;
+  background-color: #6B6B6B;
+  left: -0.625rem;
+  top: 0.3125rem;
+}
+.links .container-fluid .offers .col-md-3 .seller .Clear {
+  color: #1A90D2;
+}
+.links .container-fluid .offers .col-md-3 .seller .form {
+  padding: 0;
+}
+.links .container-fluid .offers .col-md-3 .seller .form .form-check {
+  margin-top: 2rem;
+}
+.links .container-fluid .offers .col-md-3 .seller .form .form-check .form-check-input:focus {
+  box-shadow: none;
+  border: 0.0625rem solid #6B6B6B;
+}
+.links .container-fluid .offers .cards > div .card-detial {
+  max-width: 325px;
+  position: relative;
+}
+.links .container-fluid .offers .cards > div .card-detial:nth-child(1n) .btn-outline-success:hover {
+  background: none;
+}
+.links .container-fluid .offers .cards > div .card-detial:nth-child(odd)::before {
+  position: absolute;
+  content: "best sellet";
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8.5rem;
+  height: 1.875rem;
+  color: #FFFFFF;
+  background-color: #EC9915;
+  z-index: 1;
+  border-radius: 14px 0px 20px 0px;
+  top: -2px;
+  left: 10px;
+}
+.links .container-fluid .offers .cards > div .card-detial .card .card-img-top {
+  background: #F5F5F5;
+  border-radius: 1rem;
+  width: 15.125rem;
+  margin: 1.25rem auto 0;
+}
+.links .container-fluid .offers .cards > div .card-detial .card .card-body .card-title {
+  font-size: 1.25rem;
+  color: #171716;
+}
+.links .container-fluid .offers .cards > div .card-detial .card .card-body .card-price {
+  font-size: 1.5rem;
+}
+.links .container-fluid .offers .cards > div .card-detial .card .card-body .card-price span {
+  font-size: 1rem;
+  color: #8E8E8E;
+  margin: 0;
+  padding: 0;
+  text-decoration: line-through;
+}
+.links .container-fluid .offers .cards > div .card-detial .card .card-body p {
+  font-size: 0.875rem;
+  font-style: italic;
+  margin: 0;
+}
+.links .container-fluid .offers .cards > div .card-detial .card .card-body .more-detial .btn {
+  background: none;
+  border: none;
+  color: #EA5A43;
+  padding: 0;
+}
+.links .container-fluid .offers .cards > div .card-detial .card .card-body .buttons-group {
+  margin-top: 1rem;
+}
+.links .container-fluid .offers .cards > div .card-detial .card .card-body .buttons-group .btn-primary {
+  background: #1A90D2;
+  width: 52px;
+  height: 52px;
+  border-radius: 8px;
+  padding: 1rem 0;
+}
+.links .container-fluid .offers .cards > div .card-detial .card .card-body .buttons-group .btn-outline-success {
+  width: 194px;
+  height: 3.25rem;
+  margin-left: 12px;
+  border: 2px solid #A8D5EE;
+  color: #1A90D2;
+}
+.links .container-fluid .offers .cards > div .card-detial .card .card-body .buttons-group .nth-child {
+  background-color: #1A90D2;
+  min-width: 258px;
+  color: azure;
+  margin: auto;
+  border: none;
+}
+.links .container-fluid .offers .cards > div .card-detial .card .card-body .buttons-group .third-chilh {
+  min-width: 258px;
+  margin: auto;
+  background-color: #EDFDF3;
+  color: rgb(0, 150, 109);
+  border-color: #A8EEC4;
+}
+
+.newsletter-section {
+  margin-top: 11rem;
+  background-color: #F5F5F5;
+}
+.newsletter-section .container-fluid .newsletter {
+  height: 11.375rem;
+}
+.newsletter-section .container-fluid .newsletter div > div .gmail-icon {
+  position: relative;
+  background-color: #E9E9E9;
+  width: 112px;
+  height: 112px;
+  border-radius: 100%;
+  margin: auto;
+}
+.newsletter-section .container-fluid .newsletter div > div .gmail-icon::before {
+  position: absolute;
+  content: "";
+  background-image: url("data:image/svg+xml,%0A%3Csvg width='46' height='24' viewBox='0 0 46 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.7436 7.28047L9.41406 17.1429L16.7883 11.1108L45.3069 0L12.7436 7.28047Z' fill='%23888888'/%3E%3Cpath d='M17.9855 13.4508L9.41406 17.1429L16.807 11L17.9855 13.4508Z' fill='%23888888'/%3E%3Cpath d='M16.8086 11L45.3086 0L22.4064 23.5714L16.8086 11Z' fill='%23A7A7A7'/%3E%3Cpath d='M12.5541 7.5L0.308594 0L45.3086 0.0694953L12.5541 7.5Z' fill='%23A7A7A7'/%3E%3C/svg%3E%0A");
+  width: 2.8125rem;
+  height: 1.4731rem;
+  top: 0;
+  left: 0.875rem;
+}
+.newsletter-section .container-fluid .newsletter div > div .gmail-icon::after {
+  position: absolute;
+  content: "";
+  background-image: url("data:image/svg+xml,%0A%3Csvg width='50' height='74' viewBox='0 0 50 74' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath opacity='0.5' d='M48.8088 1C2.30878 20 -9.71088 62.4201 10.3088 71C16.9112 73.8296 21.6175 73.7317 29.3088 71' stroke='%23888888' stroke-linecap='round' stroke-dasharray='4 4'/%3E%3C/svg%3E ");
+  width: 2.9881rem;
+  height: 4.5056rem;
+  top: 0;
+  left: 0;
+}
+.newsletter-section .container-fluid .newsletter div > div .gmail-content h1 {
+  font-size: 2rem;
+}
+.newsletter-section .container-fluid .newsletter .col-inp-btn {
+  width: 554px;
+  height: 64px;
+  position: relative;
+  margin-left: 70px;
+}
+.newsletter-section .container-fluid .newsletter .col-inp-btn .btn-primary {
+  position: absolute;
+  right: 13px;
+  top: 3px;
+  padding: 16px 48px;
+  background: #1A90D2;
+  border: none;
+}
+.newsletter-section .container-fluid .newsletter .col-inp-btn .email-inp {
+  width: 100%;
+  border-radius: 12px;
+  border: none;
+  padding: 0 10.875rem 0 1.25rem;
+  font-size: 16px;
+  font-weight: 500;
+}
+.newsletter-section .container-fluid .newsletter .col-inp-btn .email-inp:focus {
+  outline: none;
+}
+
+.footer-section .container-fluid {
+  padding: 5rem 4.5rem;
+  position: relative;
+}
+.footer-section .container-fluid::after {
+  position: absolute;
+  content: "";
+  width: 90%;
+  height: 1px;
+  background: #E7E5EA;
+  bottom: -2rem;
+}
+.footer-section .container-fluid .footer-top div p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #171716;
+}
+.footer-section .container-fluid .footer-top div ul li {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #171716;
+  margin-top: 1.25rem;
+}
+.footer-section .container-fluid .footer-top div ul li:first-child {
+  margin: 0;
+}
+.footer-section .container-fluid .footer-top div ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6B6B6B;
+}
+.footer-section .container-fluid .footer-top .Photon-Group p {
+  font-size: 12px;
+  padding-top: 12px;
+  color: #8E8E8E;
+}
+.footer-section .container-fluid .footer-top .footer-contact .contact-info .contact {
+  display: flex;
+  margin-top: 20px;
+}
+.footer-section .container-fluid .footer-top .footer-contact .contact-info .contact a {
+  margin-left: 1.25rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6B6B6B;
+  text-decoration: none;
+}
+.footer-section .container-fluid .footer-top .sociol {
+  margin-left: 20px;
+}
+.footer-section .container-fluid .footer-top .sociol .sociol-media {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-bottom .container {
+  padding: 2.875rem 0 2rem;
+}
+.footer-bottom .container ul li a {
+  color: #6B6B6B;
+}
+.footer-bottom .container p {
+  color: #6B6B6B;
+}/*# sourceMappingURL=style.css.map */

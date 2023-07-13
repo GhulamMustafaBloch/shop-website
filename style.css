@@ -78,29 +78,27 @@ button {
 }
 
 .header {
-  padding: 0 72px;
   z-index: 999;
   position: fixed;
-  top: 0;
   left: 0;
   right: 0;
 }
 .header .container {
+  margin: 32px auto;
   background: #FFFFFF;
   box-shadow: 0 0px 0 1px rgba(107, 107, 107, 0.08);
-  border-radius: 12px;
-  margin: 30px 0 0 0;
-  position: absolute;
-  right: 0;
-  max-width: 98.2%;
-  padding: 1.125rem 0;
+  max-width: 1296px;
+  padding: 18px 0;
+  height: 92px;
 }
 .header .container .container-fluid .navbar-collapse > div .icons {
   position: relative;
+  margin-right: 2rem;
 }
 .header .container .container-fluid .navbar-collapse > div .icons .icon {
   cursor: pointer;
   font-size: 0.875rem;
+  margin-left: 2rem;
 }
 .header .container .container-fluid .navbar-collapse > div .icons .position::before {
   position: absolute;
@@ -125,12 +123,12 @@ button {
 .header .container .container-fluid .navbar-collapse > ul li a {
   font-size: 0.875rem;
   color: #8E8E8E;
-  padding-left: 30px;
+  padding-left: 32px;
 }
 
 .bg {
   background: url("./images/Group 1260.png");
-  height: 275px;
+  height: 270px;
   opacity: 0.05;
 }
 
@@ -141,7 +139,8 @@ button {
   right: 0;
 }
 .Offer-letter-section .container {
-  max-width: 1300px;
+  margin: 32px auto;
+  max-width: 1296px;
   background-image: url("./images/offer bg.png");
   height: 4rem;
   border-radius: 3.125rem;
@@ -218,7 +217,7 @@ button {
   content: "";
   width: 2px;
   height: 16px;
-  background-color: #6B6B6B;
+  background-color: #6b6b6b;
   left: -0.625rem;
   top: 0.3125rem;
 }

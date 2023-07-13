@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
 @import "variable";
-body{
+body {
     font-size: 1rem;
     font-weight: $bold;
     scroll-behavior: smooth;
@@ -8,8 +8,7 @@ body{
     background: $bodyColor;
 }
 li,
-a
-span{
+a span {
     font-family: $RubikFont;
 }
 h1,
@@ -33,7 +32,7 @@ h1 {
     color: $priceColor;
 }
 h2 {
-    font-size: .75rem;
+    font-size: 0.75rem;
     font-weight: $medium;
     color: $priceColor;
 }
@@ -48,127 +47,125 @@ p {
     margin-top: 0.625rem;
     color: $priceColor;
 }
-span{
+span {
     color: $primaryMainColor;
 }
-a{
+a {
     color: $TextGrayColor;
     text-decoration: none;
 }
-ul{
+ul {
     list-style: none;
 }
-button{
+button {
     font-size: 1rem;
 }
-.container{
+.container {
     margin: 0;
     margin-top: 2rem;
     max-width: initial;
 }
-.header{
-    padding: 0 72px;
+.header {
     z-index: 999;
     position: fixed;
-    top: 0;
     left: 0;
     right: 0;
-        .container{
-            background: $bodyColor;
-            box-shadow: 0 0px 0 1px 
-            rgba(107, 107, 107, 0.08);
-            border-radius: 12px;
-            margin: 30px 0 0 0;
-    position: absolute;
-    right: 0;
-    max-width: 98.2%;
-            padding: 1.125rem 0;
-            .container-fluid{
-                .navbar-collapse{
-                    &>div{
-                        .icons{
-                            position: relative;
-                            .icon{
-                                cursor: pointer;
-                                font-size: .875rem;
-                            }
-                            .position{
-                                &::before{
-                                    position: absolute;
-                                    content: "6";
-                                    width: 1.375rem;
-                                    height: 1rem;
-                                    border-radius: .5625rem;
-                                    color: $bodyColor;
-                                    background: $Secondary-Main;
-                                    top: -8px;
-                                    right: 50%;
-                                    display: flex;
-                                    justify-content: center;
-                                    align-items: center;
-                                }
-                            }
+    .container {
+        margin: 32px auto;
+        background: $bodyColor;
+        box-shadow: 0 0px 0 1px rgba(107, 107, 107, 0.08);
+        max-width: 1296px;
+        padding: 18px 0;
+        height: 92px;
+        .container-fluid {
+            .navbar-collapse {
+                & > div {
+                    .icons {
+                        position: relative;
+                        margin-right: 2rem;
+                        .icon {
+                            cursor: pointer;
+                            font-size: 0.875rem;
+                            margin-left: 2rem;
                         }
-                        .btn-primary{
-                            background: $primaryMainColor;
-                            border: none;
-                            padding: 0.75rem 2rem;
-                            font-size: .875rem;
+                        .position {
+                            &::before {
+                                position: absolute;
+                                content: "6";
+                                width: 1.375rem;
+                                height: 1rem;
+                                border-radius: 0.5625rem;
+                                color: $bodyColor;
+                                background: $Secondary-Main;
+                                top: -8px;
+                                right: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
                         }
                     }
-                    &>ul{
-                        li{
-                            a{
-                                font-size: .875rem;
-                                color: $NeutralGrey-01;
-                                padding-left: 30px;
-                            }
+                    .btn-primary {
+                        background: $primaryMainColor;
+                        border: none;
+                        padding: 0.75rem 2rem;
+                        font-size: 0.875rem;
+                    }
+                }
+                & > ul {
+                    li {
+                        a {
+                            font-size: 0.875rem;
+                            color: $NeutralGrey-01;
+                            padding-left: 32px;
                         }
                     }
                 }
             }
         }
+    }
 }
-.bg{
+.bg {
     background: url("./images/Group\ 1260.png");
-    height: 275px;
+    height: 270px;
     opacity: 0.05;
 }
-.Offer-letter-section{
+.Offer-letter-section {
     position: absolute;
     top: 130px;
     left: 0;
     right: 0;
-    .container{
-        max-width: 1300px;
+    .container {
+        margin: 32px auto;
+        max-width: 1296px;
         background-image: url("./images/offer\ bg.png");
         height: 4rem;
         border-radius: 3.125rem;
-        .row{
-            &>div{
-                .btn{
+        .row {
+            & > div {
+                .btn {
                     color: $primaryMainColor;
                 }
             }
         }
     }
 }
-.links{
+.links {
     padding: 0 32px;
-    .container-fluid{
+    .container-fluid {
         max-width: 100%;
         margin: 0;
         padding: 0;
-        .offers{
-            .col-md-3{
-                .DEALS-AND-OFFERS{
-                    .col-12{
-                        p{
+        .offers {
+            .col-md-3 {
+                .DEALS-AND-OFFERS {
+                    .col-12 {
+                        p {
                             color: $TextGrayColor;
                             position: relative;
                             margin-bottom: 0;
                             margin-top: 1rem;
-                            &::before{
+                            &::before {
                                 position: absolute;
                                 content: "";
                                 width: 2px;
@@ -178,26 +175,26 @@ button{
                                 top: 0.3125rem;
                             }
                         }
-                        ul{
+                        ul {
                             padding: 32px 0;
                             margin: 0;
-                            li{
-                                &:nth-child(2){
+                            li {
+                                &:nth-child(2) {
                                     margin-top: 1.5rem;
                                 }
-                                a{
+                                a {
                                     color: $NeutralGrey-01;
                                 }
                             }
                         }
                     }
                 }
-                .services-categories{
-                    &>div{
-                        &>p{
+                .services-categories {
+                    & > div {
+                        & > p {
                             position: relative;
                             color: $TextGrayColor;
-                            &::before{
+                            &::before {
                                 position: absolute;
                                 content: "";
                                 width: 2px;
@@ -207,66 +204,66 @@ button{
                                 top: 0.3125rem;
                             }
                         }
-                        .show-all-categories{
-                            h2{
+                        .show-all-categories {
+                            h2 {
                                 font-size: 1rem;
                                 font-weight: $medium;
                             }
-                            p{
+                            p {
                                 max-width: 70%;
                                 color: $NeutralGrey-01;
                             }
                         }
                     }
                 }
-                .seller{
+                .seller {
                     margin-top: 3.0625rem;
-                    p{
+                    p {
                         margin: 0;
                     }
-                    .new-seller{
+                    .new-seller {
                         position: relative;
                         &::before {
                             position: absolute;
                             content: "";
                             width: 2px;
                             height: 16px;
-                            background-color: #6B6B6B;
+                            background-color: #6b6b6b;
                             left: -0.625rem;
                             top: 0.3125rem;
                         }
                     }
-                    .Clear{
+                    .Clear {
                         color: $Secondary-Main;
                     }
-                    .form{
+                    .form {
                         padding: 0;
-                        .form-check{
+                        .form-check {
                             margin-top: 2rem;
-                            .form-check-input{
-                                &:focus{
+                            .form-check-input {
+                                &:focus {
                                     box-shadow: none;
-                                    border: .0625rem solid $TextGrayColor;
+                                    border: 0.0625rem solid $TextGrayColor;
                                 }
                             }
                         }
                     }
                 }
             }
-            .cards{
-                &>div{
-                    .card-detial{
+            .cards {
+                & > div {
+                    .card-detial {
                         max-width: 325px;
                         position: relative;
-                        &:nth-child(1n){
-                            .btn-outline-success{
-                                &:hover{
+                        &:nth-child(1n) {
+                            .btn-outline-success {
+                                &:hover {
                                     background: none;
                                 }
                             }
                         }
-                        &:nth-child(odd){
-                            &::before{
+                        &:nth-child(odd) {
+                            &::before {
                                 position: absolute;
                                 content: "best sellet";
                                 text-transform: uppercase;
@@ -283,105 +280,105 @@ button{
                                 left: 10px;
                             }
                         }
-                    .card{
-                        .card-img-top{
-                            background: $NeutralGrey-04;
-                            border-radius: 1rem;
-                            width: 15.125rem;
-                            margin: 1.25rem auto 0;
-                        }
-                        .card-body{
-                            .card-title{
-                                font-size: 1.25rem;
-                                color: $priceColor;
+                        .card {
+                            .card-img-top {
+                                background: $NeutralGrey-04;
+                                border-radius: 1rem;
+                                width: 15.125rem;
+                                margin: 1.25rem auto 0;
                             }
-                            .card-price{
-                                font-size: 1.5rem;
-                                span{
-                                    font-size: 1rem;
-                                    color: $NeutralGrey-01;
+                            .card-body {
+                                .card-title {
+                                    font-size: 1.25rem;
+                                    color: $priceColor;
+                                }
+                                .card-price {
+                                    font-size: 1.5rem;
+                                    span {
+                                        font-size: 1rem;
+                                        color: $NeutralGrey-01;
+                                        margin: 0;
+                                        padding: 0;
+                                        text-decoration: line-through;
+                                    }
+                                }
+                                p {
+                                    font-size: 0.875rem;
+                                    font-style: italic;
                                     margin: 0;
-                                    padding: 0;
-                                    text-decoration: line-through;
                                 }
-                            }
-                            p{
-                                font-size: .875rem;
-                                font-style: italic;
-                                margin: 0;
-                            }
-                            .more-detial{
-                                .btn{
-                                    background: none;
-                                    border: none;
-                                    color: $primaryMainColor;
-                                    padding: 0;
+                                .more-detial {
+                                    .btn {
+                                        background: none;
+                                        border: none;
+                                        color: $primaryMainColor;
+                                        padding: 0;
+                                    }
                                 }
-                            }
-                            .buttons-group{
-                                margin-top: 1rem;
-                                .btn-primary{
-                                    background: $Secondary-Main;
-                                    width: 52px;
-                                    height: 52px;
-                                    border-radius: 8px;
-                                    padding: 1rem 0;
-                                }
-                                .btn-outline-success{
-                                    width: 194px;
-                                    height: 3.25rem;
-                                    margin-left: 12px;
-                                    border: 2px solid $BlueSecondary-Light;
-                                    color: $Secondary-Main;
-                                }
-                                .nth-child{
-                                    background-color: $Secondary-Main;
-                                    min-width: 258px;
-                                    color: azure;
-                                    margin: auto;
-                                    border: none;
-                                }
-                                .third-chilh{
-                                    min-width: 258px;
-                                    margin: auto;
-                                    background-color: $SuccessMain-Lighter;
-                                    color: rgba(0, 150, 109, 1);
-                                    border-color: $SuccessMain-Light;
+                                .buttons-group {
+                                    margin-top: 1rem;
+                                    .btn-primary {
+                                        background: $Secondary-Main;
+                                        width: 52px;
+                                        height: 52px;
+                                        border-radius: 8px;
+                                        padding: 1rem 0;
+                                    }
+                                    .btn-outline-success {
+                                        width: 194px;
+                                        height: 3.25rem;
+                                        margin-left: 12px;
+                                        border: 2px solid $BlueSecondary-Light;
+                                        color: $Secondary-Main;
+                                    }
+                                    .nth-child {
+                                        background-color: $Secondary-Main;
+                                        min-width: 258px;
+                                        color: azure;
+                                        margin: auto;
+                                        border: none;
+                                    }
+                                    .third-chilh {
+                                        min-width: 258px;
+                                        margin: auto;
+                                        background-color: $SuccessMain-Lighter;
+                                        color: rgba(0, 150, 109, 1);
+                                        border-color: $SuccessMain-Light;
+                                    }
                                 }
                             }
                         }
-                    }
                     }
                 }
             }
         }
     }
 }
-.newsletter-section{
+.newsletter-section {
     margin-top: 11rem;
     background-color: $NeutralGrey-04;
-    .container-fluid{
-        .newsletter{
+    .container-fluid {
+        .newsletter {
             height: 11.375rem;
-            div{
-                &>div{
-                    .gmail-icon{
+            div {
+                & > div {
+                    .gmail-icon {
                         position: relative;
                         background-color: $NeutralGrey-03;
                         width: 112px;
                         height: 112px;
                         border-radius: 100%;
                         margin: auto;
-                        &::before{
+                        &::before {
                             position: absolute;
                             content: "";
                             background-image: url("data:image/svg+xml,%0A%3Csvg width='46' height='24' viewBox='0 0 46 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.7436 7.28047L9.41406 17.1429L16.7883 11.1108L45.3069 0L12.7436 7.28047Z' fill='%23888888'/%3E%3Cpath d='M17.9855 13.4508L9.41406 17.1429L16.807 11L17.9855 13.4508Z' fill='%23888888'/%3E%3Cpath d='M16.8086 11L45.3086 0L22.4064 23.5714L16.8086 11Z' fill='%23A7A7A7'/%3E%3Cpath d='M12.5541 7.5L0.308594 0L45.3086 0.0694953L12.5541 7.5Z' fill='%23A7A7A7'/%3E%3C/svg%3E%0A");
                             width: 2.8125rem;
                             height: 1.4731rem;
                             top: 0;
-                            left: .875rem;
+                            left: 0.875rem;
                         }
-                        &::after{
+                        &::after {
                             position: absolute;
                             content: "";
                             background-image: url("data:image/svg+xml,%0A%3Csvg width='50' height='74' viewBox='0 0 50 74' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath opacity='0.5' d='M48.8088 1C2.30878 20 -9.71088 62.4201 10.3088 71C16.9112 73.8296 21.6175 73.7317 29.3088 71' stroke='%23888888' stroke-linecap='round' stroke-dasharray='4 4'/%3E%3C/svg%3E ");
@@ -391,19 +388,19 @@ button{
                             left: 0;
                         }
                     }
-                    .gmail-content{
-                        h1{
+                    .gmail-content {
+                        h1 {
                             font-size: 2rem;
                         }
                     }
                 }
             }
-            .col-inp-btn{
+            .col-inp-btn {
                 width: 554px;
                 height: 64px;
                 position: relative;
                 margin-left: 70px;
-                .btn-primary{
+                .btn-primary {
                     position: absolute;
                     right: 13px;
                     top: 3px;
@@ -411,28 +408,27 @@ button{
                     background: $Secondary-Main;
                     border: none;
                 }
-                .email-inp{
+                .email-inp {
                     width: 100%;
                     border-radius: 12px;
                     border: none;
-                    padding:0 10.875rem 0 1.25rem;
+                    padding: 0 10.875rem 0 1.25rem;
                     font-size: 16px;
                     font-weight: $medium;
-                    
-                    &:focus{
+
+                    &:focus {
                         outline: none;
                     }
                 }
-                
             }
         }
     }
 }
-.footer-section{
-    .container-fluid{
+.footer-section {
+    .container-fluid {
         padding: 5rem 4.5rem;
         position: relative;
-        &::after{
+        &::after {
             position: absolute;
             content: "";
             width: 90%;
@@ -440,23 +436,23 @@ button{
             background: $borderColor;
             bottom: -2rem;
         }
-        .footer-top{
-            div{
-                p{
+        .footer-top {
+            div {
+                p {
                     font-size: 16px;
                     font-weight: $medium;
                     color: $priceColor;
                 }
-                ul{
-                    li{
+                ul {
+                    li {
                         font-size: 1rem;
                         font-weight: $medium;
                         color: $priceColor;
                         margin-top: 1.25rem;
-                        &:first-child{
+                        &:first-child {
                             margin: 0;
                         }
-                        a{
+                        a {
                             text-decoration: none;
                             font-size: 1rem;
                             font-weight: $regular;
@@ -465,19 +461,19 @@ button{
                     }
                 }
             }
-            .Photon-Group{
-                p{
+            .Photon-Group {
+                p {
                     font-size: 12px;
                     padding-top: 12px;
                     color: $NeutralGrey-01;
                 }
             }
-            .footer-contact{
-                .contact-info{
-                    .contact{
+            .footer-contact {
+                .contact-info {
+                    .contact {
                         display: flex;
                         margin-top: 20px;
-                        a{
+                        a {
                             margin-left: 1.25rem;
                             font-size: 1rem;
                             font-weight: 400;
@@ -487,9 +483,9 @@ button{
                     }
                 }
             }
-            .sociol{
+            .sociol {
                 margin-left: 20px;
-                .sociol-media{
+                .sociol-media {
                     display: flex;
                     gap: 12px;
                 }
@@ -497,17 +493,17 @@ button{
         }
     }
 }
-.footer-bottom{
-    .container{
+.footer-bottom {
+    .container {
         padding: 2.875rem 0 2rem;
-        ul{
-            li{
-                a{
+        ul {
+            li {
+                a {
                     color: $TextGrayColor;
                 }
             }
         }
-        p{
+        p {
             color: $TextGrayColor;
         }
     }
